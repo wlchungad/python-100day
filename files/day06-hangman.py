@@ -2,7 +2,7 @@ import time
 import random
 import re
 
-pharses = ["FLOWER", "LEAFY", "FIREY", "SPONGY"]
+pharses = ["FLOWER", "LEAFY", "FIREY", "SPONGY", "ROCKY", "NEEDLE"]
 
 graphes = [
     """
@@ -73,15 +73,16 @@ graphes = [
 #     time.sleep(1)
 def main():
     # init
-    live_point = len(graphes)
+    live_point = len(graphes)-1
     keyword = random.choice(pharses)
     # print ("The keyword is ... %s" % keyword)
     user_answer = ["_"]  * len(keyword)
     print('---Game start---')
-    print("...You have %d lives" % live_point)
     print("Hint: the keyword has %d letters" % len(keyword))
+    print(graphes[len(graphes)-live_point-1])
+    print("You have %d lives" % live_point)
     while live_point > 0:
-        print(graphes[len(graphes)-live_point])
+        
         print("Progress: %s" % user_answer)
         
         while True:
@@ -101,6 +102,8 @@ def main():
         else:
             print ("That is not correct")
             live_point -= 1
+            print(graphes[len(graphes)-live_point-1])
+            print("You have %d lives left" % live_point)
 
         if ''.join(user_answer) == keyword or live_point == 0: 
             break
@@ -111,6 +114,7 @@ def main():
         print("The keyword of the day is \"%s\"!" % keyword)
     else: 
         print("Game over...")
+        print("The keyword was \"%s\"." % keyword)
     return
 
 main()
