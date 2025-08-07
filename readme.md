@@ -13,4 +13,5 @@ In this challenge, I would need to (in most cases) block myself from the usage o
 | :white_check_mark: | 6 | Loops | Write a guessing game with some simple display (similar to hangman or wordle) |
 | :white_check_mark: | 7 | Functions & backtracking | Write 2 functions:<br>- Fibonacci Numbers<br>- Factorials |
 | :white_check_mark: | 8 | String & List comprehension | Create an application of Caesar Cipher to encrypt and decrypt |
-| :new: | 9 | List operations |  |
+| :white_check_mark: | 9 | List operations | Write a to-do list with CRUD (Create, Read, Update, and Delete) functions |
+| :new: | 10 | Dictionary | Write a contact book that contains:<br>- Name<br>- Phone Number<br>- E-mail address |
