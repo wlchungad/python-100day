@@ -1,8 +1,9 @@
 # Python 100-day challenge
 ## Aim
-In this challenge, I would need to (in most cases) block myself from the usage of vibe coding / coding assistant / Copliot what-so-ever, and try to build something by my own mind. The code may not be perfect, ans sometimes I need to refer to some "Dictionaries", yet writing in such old-fashioned way could keep myself from being brainrot.
+In this challenge, I would need to (in most cases) block myself from the usage of vibe coding / coding assistant / Copliot what-so-ever, and try to build something by my own mind. The code may not be perfect, and sometimes I need to refer to some dictionaries or tutorials, yet writing in such old-fashioned way could keep myself from being brainrot.
 
 ## Tasks
+### Day 1 - 10
 | Done | Day | Topic | To-do item |
 | :---: | :---: | :---: | :--- |
 | :white_check_mark: | 1 | Basic print function | Create a function to write "Hello world" |
@@ -14,4 +15,9 @@ In this challenge, I would need to (in most cases) block myself from the usage o
 | :white_check_mark: | 7 | Functions & backtracking | Write 2 functions:<br>- Fibonacci Numbers<br>- Factorials |
 | :white_check_mark: | 8 | String & List comprehension | Create an application of Caesar Cipher to encrypt and decrypt |
 | :white_check_mark: | 9 | List operations | Write a to-do list with CRUD (Create, Read, Update, and Delete) functions |
-| :new: | 10 | Dictionary | Write a contact book that contains:<br>- Name<br>- Phone Number<br>- E-mail address |
+| :white_check_mark: | 10 | Dictionary | Write a contact book that contains:<br>- Name<br>- Phone Number<br>- E-mail address |
+
+### Day 11-20
+| Done | Day | Topic | To-do item |
+| :---: | :---: | :---: | :--- |
+| :new: | 11 |  |  |
