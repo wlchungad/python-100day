@@ -20,4 +20,5 @@ In this challenge, I would need to (in most cases) block myself from the usage o
 ### Day 11-20
 | Done | Day | Topic | To-do item |
 | :---: | :---: | :---: | :--- |
-| :new: | 11 |  |  |
+| :white_check_mark: | 11 | String Operation | Palindrome test |
+| :white_check_mark: | 12 | Randomize | Write a CoC-style Dice roller, then simulate a battle.<br>*The configuration could be wrong, please refer to the rule book.* |
