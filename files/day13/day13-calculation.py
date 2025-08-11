@@ -28,16 +28,17 @@ def main():
         return -1
 
     try:
-        try:
-            res = float(numbers[0])
-        except:
-            res = 0
-        for i, op in enumerate(operators):
-            match op:
-                case '+': res += float(numbers[i+1])
-                case '-': res -= float(numbers[i+1])
-                case '*': res *= float(numbers[i+1])
-                case '/': res /= float(numbers[i+1])
+        # try:
+        #     res = float(numbers[0])
+        # except:
+        #     res = 0
+        # for i, op in enumerate(operators):
+        #     match op:
+        #         case '+': res += float(numbers[i+1])
+        #         case '-': res -= float(numbers[i+1])
+        #         case '*': res *= float(numbers[i+1])
+        #         case '/': res /= float(numbers[i+1])
+        res = eval(formula)
         if res.is_integer():
             res = int(res)
         print (f"Result: {res}")
