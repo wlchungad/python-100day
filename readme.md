@@ -22,5 +22,6 @@ In this challenge, I would need to (in most cases) block myself from the usage o
 | :---: | :---: | :---: | :--- |
 | :white_check_mark: | 11 | String Operation | Palindrome test |
 | :white_check_mark: | 12 | Randomize | Write a CoC-style Dice roller, then simulate a battle.<br>*The configuration could be wrong, please refer to the rule book.* |
-| :new: | 13 | Error handling | Write a basic calculator (read-and-execute) with zero-division handling <br>Test cases:<br>- 365 * 1 * 2<br>- 1 / 0<br>- 365/365<br>- -1+3<br>- 1+2-3*4/5|
-| :new: | 14 | File handling | Write a Emotional Journey application with plain-text storage <br>Bonus: try to implement with Emoji for better presentation :star:| 
+| :white_check_mark: | 13 | Error handling | Write a basic calculator (read-and-execute) with zero-division handling <br>Test cases:<br>- 365 * 1 * 2<br>- 1 / 0<br>- 365/365<br>- -1+3<br>- 1+2-3*4/5|
+| :white_check_mark: | 14 | File handling | Write a Emotional Journey application with plain-text storage <br>Bonus: try to implement with Emoji for better presentation :star:| 
+| :new: | 15 | Map, filter, and reduce |  |
