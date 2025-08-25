@@ -34,6 +34,9 @@ In this challenge, I would need to (in most cases) block myself from the usage o
 ### Day 21-30
 | Done | Day | Topic | To-do item |
 | :---: | :---: | :---: | :--- |
-| :new: | 21 | Decorator | Create a logging decorator that prints the function name and arguments (args and kwargs) and a chain of simple decorators <br><b><i>Learning Point:</i></b><br><ul><li>A decorator is a "jacket" for functions to extend functionality (such as logging)</li><li>Decorators can be applied to functions, methods and classes</li><li>Decorators can be chained, and their order could affect the result</li></ul> |
-| :new: | 22 | Generator | Re-write Fibonacci number function with `yield`<br><b><i>Learning Point:</i></b><br><ul><li>Generators are functions that `yield` instead of `return`</li><li>The product of generators are iterator objects, not values (string, integers, list, etc.)</li></ul> |
-| :new: | 23 | TBC | TBC |
+| :white_check_mark: | 21 | Decorator | Create a logging decorator that prints the function name and arguments (args and kwargs) and a chain of simple decorators <br><b><i>Learning Point:</i></b><br><ul><li>A decorator is a "jacket" for functions to extend functionality (such as logging)</li><li>Decorators can be applied to functions, methods and classes</li><li>Decorators can be chained, and their order could affect the result</li></ul> |
+| :white_check_mark: | 22 | Generator | Re-write Fibonacci number function with `yield`<br><b><i>Learning Point:</i></b><br><ul><li>Generators are functions that `yield` instead of `return`</li><li>The product of generators are iterator objects, not values (string, integers, list, etc.)</li></ul> |
+| :white_check_mark: | 23 | Multithreading and Multiprocessing | <ol><li>Create a demo file of threadings and ThreadPool</li><li>Try to fetch the water quality data into text file</li></ol> |
+| :new: | 24 | (Conceptual) Undo & Redo  | Create a class with Undo and Redo functions |
+| :new: | 25 | Custom iterators | Create a countdown iterator class, and a child class of Exam Counter |
+| :new: | 26 | Built-in function in Python | Create a Zipped list of cleansed student-score, then present the zipped result with enumerate |
