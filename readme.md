@@ -38,5 +38,5 @@ In this challenge, I would need to (in most cases) block myself from the usage o
 | :white_check_mark: | 22 | Generator | Re-write Fibonacci number function with `yield`<br><b><i>Learning Point:</i></b><br><ul><li>Generators are functions that `yield` instead of `return`</li><li>The product of generators are iterator objects, not values (string, integers, list, etc.)</li></ul> |
 | :white_check_mark: | 23 | Multithreading and Multiprocessing | <ol><li>Create a demo file of threadings and ThreadPool</li><li>Try to fetch the water quality data into text file</li></ol> |
 | :new: | 24 | (Conceptual) Undo & Redo  | Create a class with Undo and Redo functions |
-| :new: | 25 | Custom iterators | Create a countdown iterator class, and a child class of Exam Counter |
-| :new: | 26 | Built-in function in Python | Create a Zipped list of cleansed student-score, then present the zipped result with enumerate |
+| :new: | 25 | Custom iterators | Create a countdown iterator class, and a child class of Exam Counter; present the iterator as a live timer |
+| :new: | 26 | Built-in function in Python | Create a Zipped list of student-score, then present the zipped result with enumerated IDs |
