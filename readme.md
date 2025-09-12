@@ -42,13 +42,13 @@ In this challenge, I would need to (in most cases) block myself from the usage o
 | :white_check_mark: | 26 | Built-in function in Python | Create a Zipped list of student-score, then present the zipped result with enumerated IDs |
 | :white_check_mark: | 27 | Context managers | Customize a File Management Context Manager<br><b><i>Learning points:</i></b><br>Context Manager automatically set up and clean up resources.<br>Benefits:<ul><li>Automatic cleanup</li><li>Avoid resource leaks</li><li>Exception-safe</li></ul> |
 | :white_check_mark: | 28 | Metaclasses | <b><i>Learning points:</i></b><ul><li>Metaclasses are classes that define how other classes are created.</li><li>Metaclasses serve as blueprints for creating classes themselves.</li><li>If we are asking whether we need metaclasses in a situation, <u>it is not needed</u>.</li></ul> |
-| :new: | 29 | Garbage collection | Create a memory usage monitor <br><b><i>Learning points:</i></b><ul><li>Garbage collection refers to memory allocation and deallocation.</li><li>Python automatically manages memory by default. However, in some cases, manual deallocation is required.</li><li>Manual collection includes:<ul><li>Time-based garbage collection</li><li>Event-based garbage collection</li></ul></li><ul> |
-| :new: | 30 | Singleton | Write a SingletonLogger class inherited from basic `logging.logger`<br><b><i>Learning points:</i></b><br>Singleton means "Only one instance", which could be important when Database and fileaccess is limited.  | 
+| :white_check_mark: | 29 | Garbage collection | Create a memory usage monitor <br><b><i>Learning points:</i></b><ul><li>Garbage collection refers to memory allocation and deallocation.</li><li>Python automatically manages memory by default. However, in some cases, manual deallocation is required.</li><li>Manual collection includes:<ul><li>Time-based garbage collection</li><li>Event-based garbage collection</li></ul></li><ul> |
+| :white_check_mark: | 30 | Singleton | Write a SingletonLogger class inherited from basic `logging.logger`<br><b><i>Learning points:</i></b><br>Singleton means "Only one instance", which could be important when Database and fileaccess is limited.  | 
 
 ### Day 31-40
 | Done | Day | Topic | To-do item |
 | :---: | :---: | :---: | :--- |
-| :new: | 31 | Basic Python MySQL Connection and actions | Use library `mysql.connector` and try the following action:<ul><li>Login</li><li>Create Database</li><li>Create table</li><li>Add content</li><li>Update Content</li></ul> |
-| :new: | 32 | Basic Python SQLite Connection and actions | Use library `sqlite` and build a Student Record system |
+| :white_check_mark: | 31 | Basic Python MySQL Connection and actions | Use library `mysql.connector` and try the following action:<ul><li>Login</li><li>Create Database</li><li>Create table</li><li>Add content</li><li>Update Content</li></ul> |
+| :white_check_mark: | 32 | Basic Python SQLite Connection and actions | Use library `sqlite` and build a Student Record system |
 | :new: | 33 | SQLAlchemy | Use SQLAlchemy & PyMySQL to connect to MySQL instance, then create tables with Foreign Key and set restrictions |
 | :new: | 34 | API | Try to make a request to an Open API and transform the output from API to a readable form<br><i>The example uses API from Hong Kong Observatory Open Data API</i> |
